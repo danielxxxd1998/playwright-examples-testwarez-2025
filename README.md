@@ -120,12 +120,14 @@ With the application running locally, set up and run the Playwright tests.
 
 This repository includes a variety of examples demonstrating different testing strategies with Playwright:
 
+- UI testing: `tests/ui`
 - UI accessibility: `tests/a11y`
 - REST API: `tests/api` and mocked API: `tests/api-mock`
-- GraphQL: `tests/graphql` (see also `docs/WEATHER_APP_GRAPHQL_E2E_NOTES.md`)
+- GraphQL: `tests/graphql`
 - Multi-session scenarios: `tests/multi-session`
 - Visual regression testing: `tests/visual-testing` and canvas mocking: `tests/visual-testing-mock`
 - WebSockets: `tests/websockets`
+- Mocking network requests: `tests/visual-testing-mock` and `tests/api-mock`
 
 Run all tests with `npx playwright test` or target a folder/file for specific suites.
 
@@ -134,6 +136,8 @@ Run all tests with `npx playwright test` or target a folder/file for specific su
 ## Playwright & AI
 
 Materials about AI and Playwright are available in our course: [Playwright & AI](https://jaktestowac.pl/course/playwright-mcp/).
+
+[![Playwright z AI](./assets/PWAI%20-%20playwright%20mcp%20z%20copilot.jpg)](https://www.youtube.com/playlist?list=PLfKhn9AcZ-cCqD34AG5YRejujaBqCBgl4)
 
 > [!IMPORTANT]
 > Check our free YouTube recording to learn more about GitHub Copilot Chat Modes:

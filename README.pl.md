@@ -114,6 +114,21 @@ cd playwright-examples-testwarez-2025
    npx playwright test
    ```
 
+# Przegląd przykładów
+
+Poniżej znajduje się przegląd dostępnych przykładów testów w tym repozytorium:
+
+- Testy UI: `tests/ui`
+- Testy REST API: `tests/api`
+- Testy GraphQL: `tests/graphql`
+- Testy dostępności (a11y): `tests/a11y`
+- Testy wielosesyjne: `tests/multi-session`
+- Testy wizualne: `tests/visual-testing` i mockowanie canvas: `tests/visual-testing-mock`
+- Testy WebSockets: `tests/websockets`
+- Mockowanie żądań sieciowych: `tests/visual-testing-mock` i `tests/api-mock`
+
+Uruchom wszystkie testy za pomocą `npx playwright test` lub skieruj je na konkretny folder/pliki, aby uruchomić wybrane zestawy testów.
+
 # Playwright i AI
 
 Materiały o AI i Playwright znajdziesz w naszym kursie [Playwright i AI](https://jaktestowac.pl/course/playwright-mcp/).
