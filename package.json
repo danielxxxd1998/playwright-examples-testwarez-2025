@@ -1,0 +1,45 @@
+{
+  "name": "playwright-examples-testwarez-2025",
+  "version": "1.0.0",
+  "description": "Examples of using Playwright for testing various web applications, including GraphQL, WebSockets, accessibility, and more. Provided by jaktestowac.pl.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui",
+    "test:api": "npx playwright test tests/api",
+    "test:api-mock": "npx playwright test tests/api-mock",
+    "test:graphql": "npx playwright test tests/graphql",
+    "test:visual": "npx playwright test tests/visual-testing",
+    "test:visual-mock": "npx playwright test tests/visual-mocking",
+    "test:multi-session": "npx playwright test tests/multi-session",
+    "test:websockets": "npx playwright test tests/websockets",
+    "test:a11y": "npx playwright test tests/a11y",
+    "test:unit": "npx playwright test tests/unit-tests",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "playwright",
+    "graphql",
+    "testing",
+    "examples",
+    "typescript",
+    "graphql testing",
+    "test automation",
+    "jaktestowac.pl",
+    "playwright test",
+    "e2e testing",
+    "api testing",
+    "accessibility testing",
+    "web testing"
+  ],
+  "author": "jaktestowac.pl",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.0"
+  }
+}
